@@ -12,7 +12,7 @@ public class GroundCheck : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D collision)
-    {   // The previous implementation of player character double jump was a buggy mess. This new line of code is the real deal!
+    {   // The previous implementation of player character double jump was a buggy mess. This new line of code is the real deal! :-D
         isGrounded = false;
     }
 }
