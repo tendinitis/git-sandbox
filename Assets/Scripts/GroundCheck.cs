@@ -12,7 +12,7 @@ public class GroundCheck : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D collision)
-    {   // This comment is in fact magical code that'll alloaw the player character to double jump!
+    {
         isGrounded = false;
     }
 }
